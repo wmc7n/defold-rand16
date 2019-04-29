@@ -14,7 +14,7 @@ M.rand16 = function(seed)
 		return self.y
 	end
 	
-	ins.next_int = function(self, min, max)
+	ins.range = function(self, min, max)
 		local a = math.abs(self:next())
 		local b = max + 1 - min
 		return min + a - math.floor(a/b)*b
