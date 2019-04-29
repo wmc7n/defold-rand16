@@ -12,5 +12,5 @@ height = 640
 title = rand16
 
 [library]
-include_dirs = src
+include_dirs = rand16
 
