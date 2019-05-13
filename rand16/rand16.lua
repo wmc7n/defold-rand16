@@ -3,7 +3,7 @@ local M = {}
 M.rand16 = function(seed)
 	
 	local ins = {
-		x = 0xD832
+		x = 0xD832,
 		y = seed or 0x7645
 	}
 	
